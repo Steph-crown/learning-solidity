@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.8+commit.dddeac2f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_favoriteColor",
+						"type": "string"
+					}
+				],
+				"name": "addFriend",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "friends",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "favoriteColor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "getFriendFavoriteColor",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieveMyFavColor",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_favoriteColor",
+						"type": "string"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExtendStorage.sol": "ExtendStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExtendStorage.sol": {
+			"keccak256": "0xd9eb15b2ef91990b02959a3600253ad68dab387f33470f7b5078582ed4476f75",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6027f0e383107ee2a98b6dfbd826fa637ba4f12a16d5ac89c39be71c3729319",
+				"dweb:/ipfs/QmNNxHmP3MdSQA8YPT638V3aXMkEicz6NUkUuhxCLMWR1x"
+			]
+		},
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xa5ea12b2c82d6205397c4c27c6d4388387cc209451fff69854df6a174a0d7d7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bc613d64961c8bc131cbb82e9c03d040b95fed95fb17d0c705812885e8b0e1d",
+				"dweb:/ipfs/QmQV5kYBDFFc3viuAGf99YyCvDAJTrstsHRdn7a33G7reM"
+			]
+		}
+	},
+	"version": 1
+}
